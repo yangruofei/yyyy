@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get("/user",function(){
     return "username";
 });
+
+Route::get('aaa',function(){
+	return 'test';
+});
+
+Route::get('/user',function(){
+	return 'aa';	
+});
